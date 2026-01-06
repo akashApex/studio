@@ -126,7 +126,7 @@ export default function EventifyLanding() {
                         {/* The Main Image Card */}
                         <div className="relative aspect-[4/5] rounded-[32px] overflow-hidden border border-white/10 shadow-2xl">
                             <Image
-                                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80"
+                                src="/studioindoor.png"
                                 alt="Keynote Speaker"
                                 fill
                                 className="object-cover scale-105 group-hover:scale-100 transition-transform duration-1000"
