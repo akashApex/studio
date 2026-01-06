@@ -71,10 +71,10 @@ export default function ArtistApplicationForm() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 0.2 }}
-                    className="relative glass-card p-8 md:p-12 border-white/10 shadow-2xl
-                     before:absolute before:inset-0 before:rounded-[inherit]
-                     before:bg-gradient-to-br before:from-white/10 before:to-transparent
-                     before:opacity-40 before:pointer-events-none"
+                    className="relative glass-card p-8 md:p-12 rounded-2xl border-white/10 shadow-2xl
+                                before:absolute before:inset-0 before:rounded-[inherit]
+                                before:bg-gradient-to-br before:from-white/10 before:to-transparent
+                                before:opacity-40 before:pointer-events-none"
                 >
                     {/* glass edge highlight */}
                     <div className="absolute inset-0 rounded-[inherit] ring-1 ring-white/10 pointer-events-none" />
