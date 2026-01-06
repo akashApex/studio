@@ -141,11 +141,11 @@ export default function EventifyLanding() {
                             <div className="absolute bottom-6 left-6 right-6 p-6 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 translate-y-2 group-hover:translate-y-0 transition-transform duration-500">
                                 <div className="flex justify-between items-start mb-4">
                                     <div>
-                                        <p className="text-[10px] font-black tracking-[0.2em] text-[var(--accent-primary)] uppercase mb-1">
+                                        <p className="text-[10px] font-black tracking-[0.2em]  uppercase mb-1">
                                             Artist Spotlight
                                         </p>
                                         <h3 className="text-2xl font-bold leading-tight">
-                                            Live on Stage <br />At Studio Studio
+                                            Live on Stage <br />At Studio 
                                         </h3>
                                     </div>
                                     <div className="p-3 rounded-full bg-[var(--accent-primary)]">
