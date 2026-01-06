@@ -29,7 +29,7 @@ export default function EventifyLanding() {
             <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-[#0a0e1a]/80 backdrop-blur-md">
                 <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                     <div className="text-2xl font-bold tracking-tighter flex items-center gap-2">
-                        EVENTIFY<span className="w-2 h-2 rounded-full bg-[#6c63ff]"></span>
+                        STUDIO<span className="w-2 h-2 rounded-full bg-[#6c63ff]"></span>
                     </div>
                     <div className="hidden md:flex gap-8 text-sm font-medium text-gray-400">
                         {['ABOUT', 'EVENT', 'SPEAKER', 'TICKET', 'BLOGS'].map((item) => (
@@ -85,10 +85,8 @@ export default function EventifyLanding() {
 
 
                         <p className="text-lg text-[var(--text-secondary)] max-w-lg mb-12 leading-relaxed font-light">
-                            Eventify is a creative studio and live venue where artists perform,
-                            audiences connect, and unforgettable experiences come to life.
-                            From stand-up comedy and music to intimate showcases, we host
-                            performances worth remembering.
+                            A live studio where artists perform and audiences connect.
+                            From comedy to music, every show is crafted to be remembered.
                         </p>
 
 
@@ -147,7 +145,7 @@ export default function EventifyLanding() {
                                             Artist Spotlight
                                         </p>
                                         <h3 className="text-2xl font-bold leading-tight">
-                                            Live on Stage <br />At Eventify Studio
+                                            Live on Stage <br />At Studio Studio
                                         </h3>
                                     </div>
                                     <div className="p-3 rounded-full bg-[var(--accent-primary)]">
@@ -172,7 +170,7 @@ export default function EventifyLanding() {
                     <div>
                         <h2 className="text-4xl font-bold mb-6 uppercase tracking-tight">Who We Are</h2>
                         <p className="text-gray-400 leading-relaxed">
-                            Eventify is a curated performance studio built for artists and audiences.
+                            Studio is a curated performance studio built for artists and audiences.
                             We provide a space where comedians, musicians, and creators can perform,
                             experiment, and connect with people who genuinely love live art.
                         </p>
@@ -210,7 +208,7 @@ export default function EventifyLanding() {
                 <div className="max-w-4xl mx-auto">
                     <p className="text-xs font-bold uppercase tracking-[0.2em] mb-4">Join us for our upcoming event!</p>
                     <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-[#1a2040]">
-                        Live Performance Night at Eventify Studio
+                        Live Performance Night at  Studio
                     </h2>
 
                     <div className="flex justify-center gap-4 md:gap-12 mb-12">
@@ -425,7 +423,7 @@ export default function EventifyLanding() {
 
                             <p className="text-lg text-[var(--text-muted)] max-w-2xl mx-auto mb-12 font-light leading-relaxed">
                                 Whether you are an artist looking to perform or an audience member
-                                looking for something real, Eventify Studio is where live art happens.
+                                looking for something real,  Studio is where live art happens.
                                 Limited seats. Intimate setting. Powerful performances.
                             </p>
 
@@ -470,7 +468,7 @@ export default function EventifyLanding() {
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
                         <div className="md:col-span-2">
                             <div className="text-2xl font-bold tracking-tighter mb-6">
-                                EVENTIFY<span className="w-1.5 h-1.5 rounded-full bg-[var(--accent-primary)] inline-block ml-1"></span>
+                                STUDIO<span className="w-1.5 h-1.5 rounded-full bg-[var(--accent-primary)] inline-block ml-1"></span>
                             </div>
                             <p className="text-[var(--text-muted)] text-sm max-w-xs leading-relaxed">
                                 The epicenter for underground talent and high-tech performances. Located in the heart of the Arts District.
@@ -502,7 +500,7 @@ export default function EventifyLanding() {
                         </p>
                         <div className="flex gap-8 text-[10px] font-medium text-white/30 uppercase tracking-widest">
                             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                            <a href="#" className="hover:text-white transition-colors">© 2026 EVENTIFY INC</a>
+                            <a href="#" className="hover:text-white transition-colors">© 2026 STUDIO INC</a>
                         </div>
                     </div>
                 </div>
