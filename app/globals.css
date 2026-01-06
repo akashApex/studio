@@ -1,9 +1,53 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Background Colors */
+  --bg-primary: #0a0e1a;
+  --bg-secondary: #0f1525;
+  --bg-tertiary: #151c2e;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --bg-card-hover: rgba(255, 255, 255, 0.06);
+  --bg-elevated: rgba(20, 28, 48, 0.8);
+
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #b8c5e0;
+  --text-muted: #7d8aab;
+  --text-disabled: #4a5468;
+
+  /* Accent Colors */
+  --accent-primary: #6c63ff;
+  --accent-secondary: #9f7aea;
+  --accent-tertiary: #4facfe;
+  --accent-success: #10b981;
+  --accent-warning: #f59e0b;
+  --accent-error: #ef4444;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-secondary: linear-gradient(135deg, #1a2a6c 0%, #3f3cbb 50%, #5f2c82 100%);
+  --gradient-accent: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  --gradient-dark: linear-gradient(180deg, rgba(10, 14, 26, 0) 0%, rgba(10, 14, 26, 0.8) 100%);
+  --gradient-hero: linear-gradient(135deg, #0f1525 0%, #1a2040 50%, #1e2749 100%);
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-medium: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.15);
+
+  /* Effects */
+  --glow-primary: 0 0 40px rgba(108, 99, 255, 0.3);
+  --glow-secondary: 0 0 30px rgba(159, 122, 234, 0.25);
+  --glow-accent: 0 0 25px rgba(79, 172, 254, 0.2);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-elevated: 0 20px 60px rgba(0, 0, 0, 0.5);
+
+  /* Glassmorphism */
+  --glass-background: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-backdrop: blur(12px);
 }
+
 
 @theme inline {
   --color-background: var(--background);
